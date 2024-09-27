@@ -1,0 +1,5 @@
+print('hello world') 
+a=input('enter the value a ') 
+b=input('enter the value b ') 
+c=a+b
+print(c) 
