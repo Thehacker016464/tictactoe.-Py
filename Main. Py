@@ -1,5 +1,52 @@
-print('hello world') 
-a=input('enter the value a ') 
-b=input('enter the value b ') 
-c=a+b
-print(c) 
+import os
+def display(a,c):
+	for b in a:
+		print('\t  \t \t',b)
+	print()
+	
+	
+	print('use the below matrix for postion ')
+	for d in c:
+		print('\t \t  \t',d)
+	print()
+	
+
+
+		
+def valid():
+		 print(game)
+		 if game[]
+		 
+		
+def pos(row,col,n):
+	if n%2==0:
+		game[row][col]='O'
+		os.system('clear')
+		display(game,ex)
+	else:
+		game[row][col]='X'
+		os.system('clear')
+		display(game,ex)
+
+def reading():
+	n=1
+	while n <=9:
+		if valid():
+			break
+	
+		row=int(input('which row:'))
+		col=int(input('which col: '))
+		print(game[row][col])
+		
+	
+		pos(row,col,n)
+	
+		n+=1		
+	
+	
+
+game=[[ ' '  for _ in range(3)] for _ in range(3)]
+ex=[[_ for _ in range (3)] for _ in range(3)]
+display(game,ex)
+reading()
+
